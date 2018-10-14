@@ -24,7 +24,9 @@ services:
 ```
 # run container
 docker  run --privileged --name docker-shecan aliva/docker-shecan
+```
 
+```
 # run docker command inside running container
 docker exec docker-shecan docker pull redis:alpine
 docker exec docker-shecan docker images
